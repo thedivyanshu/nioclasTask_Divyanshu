@@ -23,17 +23,24 @@ const Homepage = () => {
   });
 
   return (
-    <div className="question">
-      <h1>{questionId}</h1>
-      <MathJaxContext>
-        <MathJax>{myData}</MathJax>
-      </MathJaxContext>
-      <button onClick={() => setQNumber(qNumber - 1)}>
-        <MdOutlineArrowBack />
-      </button>
-      <button onClick={() => setQNumber(qNumber < 5 && qNumber + 1)}>
-        <MdOutlineArrowForward />
-      </button>
+    <div className="home">
+      <h1 className="heading">Advance Mathematics Test</h1>
+      <div className="container">
+        <div className="Question">
+          <h1>{questionId}</h1>
+          <MathJaxContext>
+            <MathJax className="data">{myData}</MathJax>
+          </MathJaxContext>
+        </div>
+        <div className="Button">
+          <button onClick={() => setQNumber(qNumber - 1)}>
+            <MdOutlineArrowBack />
+          </button>
+          <button onClick={() => setQNumber(qNumber < 5 && qNumber + 1)}>
+            <MdOutlineArrowForward />
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

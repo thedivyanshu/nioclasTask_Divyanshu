@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/thedivyanshu/nioclasTask_Divyanshu/static/css/main.523788ed.css",
+    "main.js": "/thedivyanshu/nioclasTask_Divyanshu/static/js/main.35e879da.js",
+    "static/media/b2.jpg": "/thedivyanshu/nioclasTask_Divyanshu/static/media/b2.33cb881e0de1243768b7.jpg",
+    "index.html": "/thedivyanshu/nioclasTask_Divyanshu/index.html",
+    "main.523788ed.css.map": "/thedivyanshu/nioclasTask_Divyanshu/static/css/main.523788ed.css.map",
+    "main.35e879da.js.map": "/thedivyanshu/nioclasTask_Divyanshu/static/js/main.35e879da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.523788ed.css",
+    "static/js/main.35e879da.js"
+  ]
+}
